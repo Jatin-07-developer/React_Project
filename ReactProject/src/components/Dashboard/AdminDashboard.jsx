@@ -1,0 +1,14 @@
+import React from "react";
+import Header from "../other/header";
+import CreateTask from "../other/CreateTask";
+
+const AdminDashboard = () => {
+  return (
+    <div className="bg-black h-screen w-full p-7">
+      <Header />
+      <CreateTask />
+    </div>
+  );
+};
+
+export default AdminDashboard;
