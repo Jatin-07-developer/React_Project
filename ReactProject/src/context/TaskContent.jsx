@@ -1,10 +1,8 @@
 import React from 'react'
 
-const TaskContent = ({Children}) => {
+const TaskContent = ({children}) => {
   return (
-    <div>
-        {Children}
-    </div>
+    <div>{children}</div>
   )
 }
 

@@ -3,13 +3,14 @@ import { createRoot } from "react-dom/client";
 import "./index.css";
 import App from "./App.jsx";
 import AuthContext from "./context/AuthContext.jsx";
+import TaskContent from "./context/TaskContent.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <AuthContext>
-      <TaskContext>
+      <TaskContent>
         <App />
-      </TaskContext>
+      </TaskContent>
     </AuthContext>
   </StrictMode>,
 );

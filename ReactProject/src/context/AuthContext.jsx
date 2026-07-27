@@ -1,8 +1,8 @@
 import React, { Children } from 'react'
 
-const AuthContext = ({Children}) => {
+const AuthContext = ({children}) => {
   return (
-    <div>{Children}</div>
+    <div>{children}</div>
   )
 }
 
