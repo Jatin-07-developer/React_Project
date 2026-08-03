@@ -5,7 +5,7 @@ import AllTask from '../other/AllTask'
 
 const AdminDashboard = (props) => {
     return (
-        <div className='h-full bg-black w-full p-7'>
+        <div className='h-full bg-linear-to-br from-[#0F172A] via-[#111827] to-[#1E293B] w-full p-7'>
             <Header changeUser={props.changeUser} />
             <CreateTask />
             <AllTask />

@@ -38,7 +38,7 @@ const CreateTask = () => {
     }
 
     return (
-        <div className='p-5 bg-[#1c1c1c] mt-5 rounded'>
+        <div className='p-8 bg-[#1E293B] border border-[#334155] rounded-2xl mt-5 shadow-[0_8px_25px_rgba(0,0,0,0.35)]'>
             <form onSubmit={(e) => {
                 submitHandler(e)
             }}
@@ -90,7 +90,7 @@ const CreateTask = () => {
                         onChange={(e) => {
                             setTaskDescription(e.target.value)
                         }} className='w-full text-white h-44 text-sm py-2 px-4 rounded outline-none bg-transparent border-[1px] border-gray-400' name="" id=""></textarea>
-                    <button className='bg-emerald-500 py-3 hover:bg-emerald-600 px-5 rounded text-sm mt-4 w-full'>Create Task</button>
+                    <button className="bg-[#14C8BE] text-white font-semibold px-6 py-3 rounded-xl transition-all duration-300 hover:bg-[#1BE6D8] hover:shadow-[0_0_20px_rgba(20,200,190,0.35)] hover:scale-[1.02] active:scale-95 w-full mt-3 cursor-pointer">Create Task</button>
                 </div>
 
             </form>
