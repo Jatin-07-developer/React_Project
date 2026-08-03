@@ -52,7 +52,7 @@ const CreateTask = () => {
                             onChange={(e) => {
                                 setTaskTitle(e.target.value)
                             }}
-                            className='text-sm text-white py-1 px-2 w-4/5 rounded outline-none bg-transparent border-[1px] border-gray-400 mb-4' type="text" placeholder='Make a UI design'
+                            className='text-sm text-white py-1 px-2 w-4/5 rounded outline-none bg-transparent border border-gray-400 mb-4' type="text" placeholder='Make a UI design'
                         />
                     </div>
                     <div>
@@ -62,7 +62,7 @@ const CreateTask = () => {
                             onChange={(e) => {
                                 setTaskDate(e.target.value)
                             }}
-                            className='text-sm text-white py-1 px-2 w-4/5 rounded outline-none bg-transparent border-[1px] border-gray-400 mb-4' type="date" />
+                            className='text-sm text-white py-1 px-2 w-4/5 rounded outline-none bg-transparent border border-gray-400 mb-4' type="date" />
                     </div>
                     <div>
                         <h3 className='text-sm text-gray-300 mb-0.5'>Asign to</h3>
@@ -71,7 +71,7 @@ const CreateTask = () => {
                             onChange={(e) => {
                                 setAsignTo(e.target.value)
                             }}
-                            className='text-sm text-white py-1 px-2 w-4/5 rounded outline-none bg-transparent border-[1px] border-gray-400 mb-4' type="text" placeholder='employee name' />
+                            className='text-sm text-white py-1 px-2 w-4/5 rounded outline-none bg-transparent border border-gray-400 mb-4' type="text" placeholder='employee name' />
                     </div>
                     <div>
                         <h3 className='text-sm text-gray-300 mb-0.5'>Category</h3>
@@ -80,7 +80,7 @@ const CreateTask = () => {
                             onChange={(e) => {
                                 setCategory(e.target.value)
                             }}
-                            className='text-sm text-white py-1 px-2 w-4/5 rounded outline-none bg-transparent border-[1px] border-gray-400 mb-4' type="text" placeholder='design, dev, etc' />
+                            className='text-sm text-white py-1 px-2 w-4/5 rounded outline-none bg-transparent border border-gray-400 mb-4' type="text" placeholder='design, dev, etc' />
                     </div>
                 </div>
 
@@ -89,7 +89,7 @@ const CreateTask = () => {
                     <textarea value={taskDescription}
                         onChange={(e) => {
                             setTaskDescription(e.target.value)
-                        }} className='w-full text-white h-44 text-sm py-2 px-4 rounded outline-none bg-transparent border-[1px] border-gray-400' name="" id=""></textarea>
+                        }} className='w-full text-white h-44 text-sm py-2 px-4 rounded outline-none bg-transparent border border-gray-400' name="" id=""></textarea>
                     <button className="bg-[#14C8BE] text-white font-semibold px-6 py-3 rounded-xl transition-all duration-300 hover:bg-[#1BE6D8] hover:shadow-[0_0_20px_rgba(20,200,190,0.35)] hover:scale-[1.02] active:scale-95 w-full mt-3 cursor-pointer">Create Task</button>
                 </div>
 
