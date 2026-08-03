@@ -7,7 +7,7 @@ const AllTask = () => {
 
    
   return (
-    <div className='p-8 bg-[#1E293B] border border-[#334155] rounded-2xl mt-5 shadow-[0_8px_25px_rgba(0,0,0,0.35)]'>
+    <div className='p-8 bg-[#1E293B] border border-[#334155] rounded-2xl hover: mt-5 shadow-[0_8px_25px_rgba(0,0,0,0.35)] hover:scale-102 transition-transform duration-300 ease-in-out'>
         <h1 className='text-2xl font-bold text-white mb-4'>Employee Tasks Overview</h1>
         <div className='bg-transparent text-white border-t border-b border-gray-500 mb-2 py-2 px-4 flex justify-between rounded'>
             <h2 className='text-lg font-medium w-1/5'>Employee Name</h2>

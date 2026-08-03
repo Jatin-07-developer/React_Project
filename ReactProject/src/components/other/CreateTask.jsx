@@ -1,5 +1,6 @@
 import React, { useContext, useState } from 'react'
 import { AuthContext } from '../../context/AuthProvider'
+import { ClipboardList } from "lucide-react";
 
 const CreateTask = () => {
 
@@ -39,6 +40,11 @@ const CreateTask = () => {
 
     return (
         <div className='p-8 bg-[#1E293B] border border-[#334155] rounded-2xl mt-5 shadow-[0_8px_25px_rgba(0,0,0,0.35)]'>
+            <div className='mb-6'>
+                <h1 className='text-2xl font-bold text-white mb-1'>Create New Task</h1>
+                <p className='text-gray-400 mb-4'>Fill in the details to create a new task.</p>
+            </div>
+            
             <form onSubmit={(e) => {
                 submitHandler(e)
             }}
