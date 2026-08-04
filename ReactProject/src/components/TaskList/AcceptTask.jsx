@@ -13,8 +13,8 @@ const AcceptTask = ({data}) => {
                 {data.taskDescription}
             </p>
             <div className='flex justify-between mt-15 gap-3 '>
-                <button className="px-1 py-0 rounded-xl border border-[#14C8BE] bg-[#14C8BE]/10 text-[#2DD4BF] font-light transition-all duration-300 hover:bg-[#14C8BE] hover:text-white hover:shadow-[0_0_20px_rgba(20,200,190,0.35)] hover:-translate-y-0.5">Mark as Completed</button>
-                <button className="px-5 py-2.5 rounded-xl border border-red-500 bg-transparent text-red-400 font-medium transition-all duration-300 hover:bg-red-500 hover:text-white hover:shadow-[0_0_20px_rgba(239,68,68,0.25)] hover:-translate-y-0.5">Mark as Failed</button>
+                <button className="px-1 py-0 rounded-xl border border-[#14C8BE] bg-[#14C8BE]/10 text-[#2DD4BF] font-light transition-all duration-300 hover:bg-[#14C8BE] hover:text-white hover:shadow-[0_0_20px_rgba(20,200,190,0.35)] hover:-translate-y-0.5 cursor-pointer">Mark as Completed</button>
+                <button className="px-5 py-2.5 rounded-xl border border-red-500 bg-transparent text-red-400 font-medium transition-all duration-300 hover:bg-red-500 hover:text-white hover:shadow-[0_0_20px_rgba(239,68,68,0.25)] hover:-translate-y-0.5 cursor-pointer">Mark as Failed</button>
             </div>
         </div>
   )

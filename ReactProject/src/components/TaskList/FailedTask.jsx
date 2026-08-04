@@ -12,7 +12,7 @@ const FailedTask = ({data}) => {
                 {data.taskDescription}
             </p>
             <div className='mt-6'>
-                <button className='w-full bg-red-500 rounded font-medium py-1 px-2 text-xs'>Failed</button>
+                <button className="w-full py-3 rounded-xl border border-red-500 bg-red-500/10 text-red-400 font-semibold transition-all duration-300 hover:bg-red-500 hover:text-white hover:shadow-[0_0_20px_rgba(239,68,68,0.35)] hover:-translate-y-0.5 active:scale-95 cursor-pointer">Failed</button>
             </div>
         </div>
   )
