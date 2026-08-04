@@ -2,9 +2,9 @@ import React from 'react'
 
 const FailedTask = ({data}) => {
   return (
-    <div className='shrink-0 h-full w-75 p-5 bg-yellow-400 rounded-xl'>
+    <div className='shrink-0 h-full w-75 p-5 bg-[#162235] border border-[#334155] shadow-[0_8px_30px_rgba(0,0,0,0.25)] hover:border-[#14C8BE] transition-all duration-300 text-white rounded-xl'>
             <div className='flex justify-between items-center'>
-                <h3 className='bg-red-600 text-sm px-3 py-1 rounded'>{data.category}</h3>
+                <h3 className='bg-transparent border-2 border-[#14C8BE] text-base font-medium text-[#14C8BE] px-2 py-0.5 rounded-lg'>{data.category}</h3>
                 <h4 className='text-sm'>{data.taskDate}</h4>
             </div>
             <h2 className='mt-5 text-2xl font-semibold'>{data.taskTitle}</h2>
