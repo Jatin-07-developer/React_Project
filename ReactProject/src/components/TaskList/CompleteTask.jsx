@@ -12,7 +12,9 @@ const CompleteTask = ({data}) => {
                 {data.taskDescription}
             </p>
             <div className='mt-20'>
-                <button className="w-full py-1 rounded-xl border border-[#14C8BE] bg-[#14C8BE]/10 text-[#2DD4BF] font-semibold transition-all duration-300 hover:bg-[#14C8BE] hover:text-white hover:shadow-[0_0_20px_rgba(20,200,190,0.35)] cursor-pointer">Complete</button>
+                <button className="w-full py-1 rounded-xl border border-[#14C8BE] bg-[#14C8BE]/10 text-[#2DD4BF] font-semibold transition-all duration-300 hover:bg-[#14C8BE] hover:text-white hover:shadow-[0_0_20px_rgba(20,200,190,0.35)] cursor-pointer" onClick={() => {
+                    alert("The Task is Marked as Completed")
+                }}>Complete</button>
             </div>
         </div>
   )
