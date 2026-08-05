@@ -12,7 +12,9 @@ const FailedTask = ({data}) => {
                 {data.taskDescription}
             </p>
             <div className='mt-6'>
-                <button className="w-full py-3 rounded-xl border border-red-500 bg-red-500/10 text-red-400 font-semibold transition-all duration-300 hover:bg-red-500 hover:text-white hover:shadow-[0_0_20px_rgba(239,68,68,0.35)] hover:-translate-y-0.5 active:scale-95 cursor-pointer">Failed</button>
+                <button className="w-full py-3 rounded-xl border border-red-500 bg-red-500/10 text-red-400 font-semibold transition-all duration-300 hover:bg-red-500 hover:text-white hover:shadow-[0_0_20px_rgba(239,68,68,0.35)] hover:-translate-y-0.5 active:scale-95 cursor-pointer" onClick={() => {
+                    alert("The Task is Marked as Failed")
+                }}>Failed</button>
             </div>
         </div>
   )

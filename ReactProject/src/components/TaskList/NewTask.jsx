@@ -12,7 +12,9 @@ const NewTask = ({data}) => {
                 {data.taskDescription}
             </p>
             <div className='mt-6'>
-                <button className="w-full py-3 rounded-xl border border-amber-400 bg-amber-400/10 text-amber-300 font-semibold transition-all duration-300 hover:bg-amber-400 hover:text-slate-900 hover:shadow-[0_0_20px_rgba(251,191,36,0.35)] hover:-translate-y-0.5 cursor-pointer">Accept Task</button>
+                <button className="w-full py-3 rounded-xl border border-amber-400 bg-amber-400/10 text-amber-300 font-semibold transition-all duration-300 hover:bg-amber-400 hover:text-slate-900 hover:shadow-[0_0_20px_rgba(251,191,36,0.35)] hover:-translate-y-0.5 cursor-pointer" onClick={() => {
+                    alert("The Task is Accepted")
+                }}>Accept Task</button>
             </div>
         </div>
     )
